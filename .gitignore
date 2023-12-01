@@ -1,0 +1,9 @@
+*
+!.gitignore
+!README.md
+!.zshrc
+!.alacritty.yml
+!.tmux.conf
+!.config/
+!.config/nvim/
+!.config/nvim/*
