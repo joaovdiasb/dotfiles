@@ -7,4 +7,5 @@
 - brew install --cask alacritty
 - brew install tmux
 - brew install zsh
+- git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 - git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
