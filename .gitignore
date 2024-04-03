@@ -2,7 +2,7 @@
 !.gitignore
 !README.md
 !.zshrc
-!.alacritty.yml
+!.alacritty.toml
 !.tmux.conf
 !.config/
 !.config/nvim/

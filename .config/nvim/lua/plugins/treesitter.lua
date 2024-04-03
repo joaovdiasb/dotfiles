@@ -18,6 +18,8 @@ return {
       "typescript",
       "vim",
       "yaml",
+      "vue",
+      "css",
     },
   },
 }

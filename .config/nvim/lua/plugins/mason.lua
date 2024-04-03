@@ -28,6 +28,7 @@ return {
       "shfmt",
       "stylua",
       "tailwindcss-language-server",
+      "vue-language-server",
     },
   },
 }
