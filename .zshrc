@@ -6,6 +6,9 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+#MYSQL
+export PATH="/opt/homebrew/opt/mysql@8.0/bin:$PATH"
+
 #GEM
 export PATH=$HOME/.gem/bin:$PATH
 
@@ -30,7 +33,7 @@ export ZSH=$HOME/.oh-my-zsh
 
 ZSH_THEME="agnoster"
 
-ZSH_TMUX_AUTOSTART=true
+#ZSH_TMUX_AUTOSTART=true
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 
 plugins=(
